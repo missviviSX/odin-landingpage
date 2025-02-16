@@ -1,0 +1,26 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    border-color: blue;
+    height: 72 px;
+    background-color: #1F2937;
+}
+
+.middle {
+    border-color: green;
+}
+
+.in {
+    border-style: dashed;
+    border-color: red;
+}
+
+.bottom {
+    border-color: blue;
+    height: 72px;
+    background-color: #1F2937;
+}
