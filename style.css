@@ -1,26 +1,40 @@
 body {
+    font-family: Roboto;
+    margin: 0;
     min-height: 100vh;
     display: flex;
     justify-content: space-between;
 }
 
 .top {
-    border-color: blue;
-    height: 72 px;
-    background-color: #1F2937;
+    border: 5px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding-bottom: 16px;
 }
 
 .middle {
-    border-color: green;
+    border: 5px solid green;
+    display: flex;
+    flex-direction: column;
 }
 
 .in {
-    border-style: dashed;
-    border-color: red;
+    border: 5px dashed red;
 }
 
 .bottom {
-    border-color: blue;
+    border: 5px solid blue;
     height: 72px;
     background-color: #1F2937;
 }
