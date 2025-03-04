@@ -1,23 +1,37 @@
 body {
     height: 100vh;
+    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
 .middle {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .header { 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .cardbox {
-    display: flex;}
+    display: flex;
+    padding: 40px;
+}
 
 .card {
     display: flex;
@@ -26,7 +40,6 @@ body {
     text-align: center;
     padding: 20px;
     max-width: 200px;
-    border: 5px solid red;
 }
 
 .image {
@@ -38,5 +51,38 @@ body {
 
 .bigquote {
     text-align: center;
-    background-color: lightgray;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkbox {
+    background-color: #3882F6;
+    padding: 60px;
+    border-radius: 25px;
+    border: 5px;
+    margin: 60px;
+}
+
+.bottom {
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px;
 }
